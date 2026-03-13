@@ -13,3 +13,14 @@ Tecnologias utilizadas:
 
 
 <img width="1913" height="848" alt="image" src="https://github.com/user-attachments/assets/c32b7bdb-5325-428d-a734-98db10d1d063" />
+
+
+Para rodar o projeto:
+
+- Dentro do arquivo tem um docker pra voce subir localmente o docker, vale a pena ler o arquivo.
+- Comando npm ci pra restabelecer as dependencias.
+- Comando npm start pra rodar o projeto.
+
+Outras consideracãoes:
+
+- O arquivo utlizado foi um PDF, mas poderia tranquilamente ser outra extensão.
