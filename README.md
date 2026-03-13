@@ -24,6 +24,13 @@ Para rodar o projeto:
 - Comando npm ci pra restabelecer as dependencias.
 - Comando npm start pra rodar o projeto.
 
+Melhorias futuras:
+
+- Usar uma framework mais atualizado e moderno como por exemplo Next ou Angular
+- Fazer um backend separado.
+
+  
 Outras consideracãoes:
 
 - O arquivo utlizado foi um PDF, mas poderia tranquilamente ser outra extensão.
+- Foi feito de forma simples e direta, apenas pra fixação dos conceitos e dominio do step-by-step.
