@@ -1,0 +1,201 @@
+﻿Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+2026-03-15 22:52:40.929+0000 INFO  Logging config in use: File '/var/lib/neo4j/conf/user-logs.xml'
+2026-03-15 22:52:40.947+0000 INFO  Starting...
+2026-03-15 22:52:41.566+0000 INFO  This instance is ServerId{006e657e} (006e657e-df63-4873-a052-fc1ef9e158d4)
+2026-03-15 22:52:42.053+0000 INFO  ======== Neo4j 5.14.0 ========
+2026-03-15 22:53:04.809+0000 INFO  Bolt enabled on 0.0.0.0:7687.
+2026-03-15 22:53:05.236+0000 INFO  HTTP enabled on 0.0.0.0:7474.
+2026-03-15 22:53:05.237+0000 INFO  Remote interface available at http://localhost:7474/
+2026-03-15 22:53:05.240+0000 INFO  id: 1806392A9FC90094171CA5A6ABC47C5DC642C39962AF0A8D3E97ED57CA94F21B
+2026-03-15 22:53:05.241+0000 INFO  name: system
+2026-03-15 22:53:05.241+0000 INFO  creationDate: 2026-03-15T22:52:42.7Z
+2026-03-15 22:53:05.242+0000 INFO  Started.
+2026-03-15 23:28:59.714+0000 INFO  Neo4j Server shutdown initiated by request
+2026-03-15 23:28:59.715+0000 INFO  Stopping...
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
+Installing Plugin 'apoc' from /var/lib/neo4j/labs/apoc-*-core.jar to /plugins/apoc.jar
+Applying default values for plugin apoc to neo4j.conf
+Skipping dbms.security.procedures.unrestricted for plugin apoc because it is already set.
+You may need to add apoc.* to the dbms.security.procedures.unrestricted setting in your configuration file.
+Changed password for user 'neo4j'. IMPORTANT: this change will only take effect if performed before the database is started for the first time.
