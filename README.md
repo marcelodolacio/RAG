@@ -1,4 +1,4 @@
-#RAG (Retrieval Augmented Generation)
+# RAG (Retrieval Augmented Generation)
 
 Essa aplicacao é uma aplicacao pra treinar o conceito de vectors e embeddings, utilizei a documentacao de 2019 do futebol americano. Inspirado em um módulo da pós graduação em engenharia de software com IA aplicada.
 
