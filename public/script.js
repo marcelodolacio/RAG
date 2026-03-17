@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
-        
+
         const question = input.value.trim();
         if (!question) return;
 
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
 
             const data = await response.json();
-            
+
             removeTypingIndicator(loadingId);
 
             if (data.error) {
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const formattedAnswer = formatText(data.answer);
                 addMessage(formattedAnswer, 'ai-message', true);
             }
-            
+
         } catch (error) {
             removeTypingIndicator(loadingId);
             addMessage('Ocorreu um erro ao conectar ao servidor. Tente novamente mais tarde.', 'ai-message error-text');
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function addMessage(text, className, isHtml = false) {
         const div = document.createElement('div');
         div.className = `message ${className}`;
-        
+
         if (isHtml) {
             div.innerHTML = text;
         } else {
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
         formatted = formatted.replace(/`([^`]+)`/g, '<code>$1</code>');
         // Negrito
         formatted = formatted.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
-        
+
         return formatted;
     }
 });
