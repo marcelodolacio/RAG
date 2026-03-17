@@ -5,7 +5,6 @@ import { type PretrainedOptions } from "@huggingface/transformers";
 import { Neo4jVectorStore } from "@langchain/community/vectorstores/neo4j_vector";
 import { ChatOpenAI } from "@langchain/openai";
 import { AI } from "./ai.ts";
-import { writeFile, mkdir } from 'node:fs/promises';
 import express from 'express';
 import cors from 'cors';
 
@@ -99,11 +98,6 @@ try {
                 return res.status(404).json({ error: result.error });
             }
             
-            // Opcional: Salvar a resposta no filesystem como era feito antes
-            await mkdir(CONFIG.output.answersFolder, { recursive: true }).catch(() => {});
-            const fileName = `${CONFIG.output.answersFolder}/${CONFIG.output.fileName}-${Date.now()}.md`;
-            await writeFile(fileName, result.answer!).catch(console.error);
-
             res.json({ answer: result.answer });
         } catch (e: any) {
             console.error(e);

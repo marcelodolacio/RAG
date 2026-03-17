@@ -15,10 +15,6 @@ export interface TextSplitterConfig {
 export const CONFIG = Object.freeze({
     promptConfig: JSON.parse(readFileSync(promptsFiles.answerPrompt, 'utf-8')),
     templateText: readFileSync(promptsFiles.template, 'utf-8'),
-    output: {
-        answersFolder: './respostas',
-        fileName: 'resposta',
-    },
     neo4j: {
         url: process.env.NEO4J_URI!,
         username: process.env.NEO4J_USER!,
