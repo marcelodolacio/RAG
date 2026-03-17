@@ -13,7 +13,8 @@ Tecnologias utilizadas:
 - LangChain
 - OpenRouter
   
-<img width="1566" height="902" alt="image" src="https://github.com/user-attachments/assets/c355ac4a-e12b-4dfc-9d1e-c31dd27a9560" />
+<img width="1850" height="852" alt="image" src="https://github.com/user-attachments/assets/f89c4731-6c07-4601-aa91-2e2e0b89ff80" />
+
 
 Para rodar o projeto:
 
