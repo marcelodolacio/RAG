@@ -1,8 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const form = document.getElementById('chat-form');
-    const input = document.getElementById('question-input');
-    const history = document.getElementById('chat-history');
-    const sendBtn = document.getElementById('send-btn');
+    const form = document.getElementById('search-form');
+    const input = document.getElementById('search-input');
+    const searchBtn = document.getElementById('search-btn');
+    const resultsSection = document.getElementById('results-section');
+    const resultsContent = document.getElementById('results-content');
+    const resultsCount = document.getElementById('results-count');
 
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
@@ -10,13 +12,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const question = input.value.trim();
         if (!question) return;
 
-        // Adiciona mensagem do usuário
-        addMessage(question, 'user-message');
-        input.value = '';
+        // Desabilita input e botão
         input.disabled = true;
-        sendBtn.disabled = true;
+        searchBtn.disabled = true;
 
-        // Mostra indicador de digitação
+        // Limpa resultados anteriores e mostra indicador
+        resultsContent.innerHTML = '';
+        resultsSection.classList.remove('hidden');
         const loadingId = showTypingIndicator();
 
         try {
@@ -33,61 +35,63 @@ document.addEventListener('DOMContentLoaded', () => {
             removeTypingIndicator(loadingId);
 
             if (data.error) {
-                addMessage(data.error, 'ai-message error-text');
+                showResult('Erro', data.error, true);
             } else {
-                // Para respostas Markdown básicas, faremos um parsing super simples
-                // Numa aplicação real, usaríamos marked.js ou similar.
                 const formattedAnswer = formatText(data.answer);
-                addMessage(formattedAnswer, 'ai-message', true);
+                showResult(question, formattedAnswer);
             }
 
         } catch (error) {
             removeTypingIndicator(loadingId);
-            addMessage('Ocorreu um erro ao conectar ao servidor. Tente novamente mais tarde.', 'ai-message error-text');
+            showResult('Erro', 'Ocorreu um erro ao conectar ao servidor. Tente novamente mais tarde.', true);
             console.error('Erro:', error);
         } finally {
             input.disabled = false;
-            sendBtn.disabled = false;
+            searchBtn.disabled = false;
             input.focus();
         }
     });
 
-    function addMessage(text, className, isHtml = false) {
+    function showResult(title, content, isError = false) {
         const div = document.createElement('div');
-        div.className = `message ${className}`;
-
-        if (isHtml) {
-            div.innerHTML = text;
+        div.className = isError ? 'result-item error-text' : 'result-item';
+        
+        const titleEl = document.createElement('h3');
+        titleEl.textContent = title;
+        
+        const contentEl = document.createElement('p');
+        if (isError) {
+            contentEl.textContent = content;
         } else {
-            div.textContent = text;
+            contentEl.innerHTML = content;
         }
-
-        history.appendChild(div);
-        scrollToBottom();
+        
+        div.appendChild(titleEl);
+        div.appendChild(contentEl);
+        resultsContent.appendChild(div);
+        
+        // Atualiza contador
+        resultsCount.textContent = `Resultado para: "${input.value}"`;
     }
 
     function showTypingIndicator() {
         const id = 'loading-' + Date.now();
         const div = document.createElement('div');
         div.id = id;
-        div.className = 'message ai-message typing-indicator';
+        div.className = 'typing-indicator';
         div.innerHTML = `
             <div class="dot"></div>
             <div class="dot"></div>
             <div class="dot"></div>
+            <span style="margin-left: 8px;">Pesquisando...</span>
         `;
-        history.appendChild(div);
-        scrollToBottom();
+        resultsContent.appendChild(div);
         return id;
     }
 
     function removeTypingIndicator(id) {
         const el = document.getElementById(id);
         if (el) el.remove();
-    }
-
-    function scrollToBottom() {
-        history.scrollTop = history.scrollHeight;
     }
 
     function formatText(text) {
